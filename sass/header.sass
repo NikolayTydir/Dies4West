@@ -30,27 +30,34 @@ h2
 	padding: 15px 0
 	ul
 		@extend .ul-unstyled
+		text-align: right
 		li
 			display: inline-block
-			font-size: em(17px)
-			padding: 0 20px
-			line-height: 50px
+			font-size: em(18px)
+			padding: 0 10px
+			margin-right: 10px
+			line-height: 25px
+			border-left: 1px solid #cccd64
+			text-align: right
+			&:first-child
+				border-left: none
 
 	.logo
 		font-family: "JuraBold", $helvetica
 		font-size: (25px)
+		line-height: 25px
 	.toggle-mnu
 		float: right
 
 .main-header
-	min-height: 500px
+	height: 500px
 	background-size: cover
 	background-position: center
 	position: relative
 	.header-content
 		text-align: center
 		h1
-			padding-top: 120px
+			padding-top: 20px
 		.button-wrap
 			text-align: center
 			font-size: em(16px)
@@ -74,6 +81,32 @@ h2
 					text-decoration: none
 					text-shadow: none
 					transition: all .5s ease
+	.icons
+		display: table
+		margin: 0 auto
+		padding: 20px 0
+		.icon-wrap
+			border: 2px solid #000000
+			border-radius: (91px) 
+			width: 50px
+			height: 49px
+			float: left
+			margin-left: 10px
+			background-color: black
+			&:hover
+				border: 2px solid #000
+				background-color: #fff
+				i
+					color: #000
+	i
+		font-size: 2.0em
+		padding-left: 1px
+		padding-top: 8px
+		color: #fff
+	a
+		color: black
+		&:hover
+			color: #000
 
 .toggle-mnu 
 	display: block
