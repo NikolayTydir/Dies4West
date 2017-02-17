@@ -6,6 +6,7 @@ $(function() {
 		return false;
 	});
 
+
 	
 	//SVG Fallback
 	if(!Modernizr.svg) {
@@ -33,3 +34,4 @@ $(function() {
 	});
 
 });
+
