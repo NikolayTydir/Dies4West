@@ -13,11 +13,11 @@ $(function() {
 		loop : true,
 		autoplay : true,
 		autoplayHoverPause : true,
-		fluidSpeed : 600,
-		autoplaySpeed : 600,
-		navSpeed : 600,
-		dotsSpeed : 600,
-		dragEndSpeed : 600
+		fluidSpeed : 200,
+		autoplaySpeed : 200,
+		navSpeed : 200,
+		dotsSpeed : 200,
+		dragEndSpeed : 200
 	});
 	
 	//SVG Fallback
